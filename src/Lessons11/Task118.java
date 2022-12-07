@@ -6,7 +6,8 @@ package Lessons11;
 import java.util.Random;
 
 public class Task118 {
-    public static void main(String[] args) {        Random random = new Random();
+    public static void main(String[] args) {
+        Random random = new Random();
         for (int i = 0; i < 15; i++) {
             int randomInt = random.nextInt(-20, 35);
             if (randomInt < 0) {
